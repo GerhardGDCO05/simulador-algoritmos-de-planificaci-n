@@ -1,0 +1,198 @@
+.scheduler-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+  color: #333;
+  margin-top: 0;
+}
+
+.process-list {
+  margin-bottom: 15px;
+}
+
+.process-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.process-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.process-fields {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.field input, .field select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.btn-add {
+  background: #4CAF50;
+  color: white;
+}
+
+.btn-sample {
+  background: #2196F3;
+  color: white;
+}
+
+.btn-run {
+  background: #FF9800;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.btn-run:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-remove {
+  background: #f44336;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.btn-test {
+  background: #9C27B0;
+  color: white;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.results-table th, .results-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.results-table th {
+  background: #333;
+  color: white;
+}
+
+.results-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.metrics {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.metric:last-child {
+  border-bottom: none;
+}
+
+.metric-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.metric-value {
+  color: #333;
+  font-family: monospace;
+}
+
+.gantt-chart {
+  display: flex;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.gantt-block {
+  background: #4CAF50;
+  color: white;
+  margin-right: 2px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 4px;
+  min-width: 50px;
+}
+
+.gantt-process {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.gantt-time {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.debug {
+  background: #e8f4fd;
+}
+
+.status {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.status p {
+  margin: 5px 0;
+}
